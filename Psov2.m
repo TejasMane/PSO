@@ -129,7 +129,6 @@ for run=1:maxrun
 end 
 % pso main program------------------------------------------------------end 
 disp(sprintf('\n')); 
-disp(sprintf('*********************************************************')); 
 disp(sprintf('Final Results-----------------------------')); 
 [bestfun,bestrun]=min(fff) 
 best_variables=rgbest(bestrun,:) 
